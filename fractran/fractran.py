@@ -1,4 +1,4 @@
-N = 36;
+N = 288;
 p = "455/33,11/13,1/11,3/7,11/2,1/3"
 step = False
 
@@ -31,8 +31,7 @@ while i < len(pl):
     dn = pl[i][0]/pl[i][1]
     if step:
         input()
-        print("step: "+str(s))
-        print("index:"+str(i)+"\n")
+        print("step: "+str(s)+"\nindex:"+str(i)+"\n")
         s+=1
         printVar(countDup(primeFactors(N)))
     if N * dn % 1 == 0:

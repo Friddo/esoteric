@@ -1,8 +1,19 @@
-#vars
-p = "+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+."
-memSize = 32 #num of avaliable variable spots
 
-maxValue = 256 #standard for brainfuck, most programs run on this, so beware when changing
+
+#load program
+import sys
+p = ""
+if len(sys.argv) == 2:
+    f = open(sys.argv[1], "r")
+    p = ''.join(filter(lambda x: x in ['.', ',', '[', ']', '<', '>', '+', '-'], f.read()))
+    f.close()
+else:
+    print("bad file")
+    quit()
+
+
+memSize = 256 #num of avaliable pointer locations
+maxValue = 256 #standard for brainfuck
 
 
 #code
@@ -10,7 +21,7 @@ import os;import platform as pf
 clear = lambda: os.system((pf.system() == "Darwin") * 'clear' + (pf.system() != "Darwin") * 'cls')
 clear()
 print("input:\n"+p+"\n")
-print("output:")
+
 pointer = 0
 tape = [0]*memSize
 
@@ -30,7 +41,9 @@ while i < len(p):
         pointer=(pointer-1)%memSize #left
     #accepting input at pointer
     elif c == ",":
-        tape[pointer] = ord(input()) #take input and convert to ASCII
+        t = input()
+        if len(t) != 0:
+            tape[pointer] = ord(t) #take input and convert to ASCII
     #output at pointer
     elif c == ".":
         print(chr(tape[pointer]), end = '') #print ASCII char inline
