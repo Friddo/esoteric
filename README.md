@@ -7,7 +7,7 @@ A library of esoteric language interpreters
 Languages:
 1. [Fractran](#fractran)
 2. [Brainfuck](#brainfuck)
-
+3. [Slashes(///)](#slashes)
 
 
 
@@ -65,18 +65,35 @@ output:
 Hello World!
 ```
 
-Cat program:
+
+<a name="slashes"></a>
+## Slashes (///)
+
+For more info on the language, visit: 
+* [Slashes on Esolangs](https://esolangs.org/wiki////)
+
+### Languages:
+
+* Python 3.8.x
+
+### Usage:
+
+```
+python3 slashes.py filename.slash
+
+### Output:
+
+* final state of program
+
+### Examples:
+
+Hello World:
 ```
 program:
-,[.,]
-
-input:
-c
-a
-t
+/foo/Hello, world!//bar/foo/bar
 
 output:
-cat
+Hello, World!
 ```
 
 
