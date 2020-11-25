@@ -1,10 +1,10 @@
-N = 36;
+N = 2**8*3**4;
 p = "455/33,11/13,1/11,3/7,11/2,1/3"
-step = True
+step = False
 
 import math as m
 import os;import platform as pf
-clear = lambda: os.system((pf.system() == "Darwin") * 'clear' + (pf.system() != "Darwin") * 'clear')
+clear = lambda: os.system((pf.system() == "Darwin") * 'clear' + (pf.system() != "Darwin") * 'cls')
 clear()
 from collections import Counter as c
 def primeFactors(n):
@@ -31,7 +31,8 @@ while i < len(pl):
     dn = pl[i][0]/pl[i][1]
     if step:
         input()
-        print("step: "+str(s)+"\nindex:"+str(i)+"\n")
+        print("step: "+str(s))
+        print("index:"+str(i)+"\n")
         s+=1
         printVar(countDup(primeFactors(N)))
     if N * dn % 1 == 0:
