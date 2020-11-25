@@ -12,7 +12,9 @@ Languages:
 <a name="fractran"></a>
 ## Fractran
 
-For more info on the language, visit: [Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
+For more info on the language, visit: 
+[Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
+[Fractran on Esolangs](https://esolangs.org/wiki/Fractran)
 
 Usage:
 
