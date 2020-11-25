@@ -80,7 +80,7 @@ For more info on the language, visit:
 
 ```
 python3 slashes.py filename.slash
-
+```
 ### Output:
 
 * final state of program
