@@ -39,19 +39,32 @@ For more info on the language, visit:
 * [Brainfuck on Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)
 * [Brainfuck on Esolangs](https://esolangs.org/wiki/Brainfuck)
 
-Languages:
+### Languages:
 
 * Python 3.8.x
 
-Usage:
+### Usage:
 
 * define *p* as your program (spaces are removed in code, and non-operators are ignored)
 * valid characters include: `> < [ ] + - . ,`
 
-Output:
+### Output:
 
 * inline print from *.* operator
 
-Examples:
+### Examples:
+
+```
+# Hello World
+
+input:
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+
+output:
+Hello World!
+```
+
+
+
 
 
