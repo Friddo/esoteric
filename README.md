@@ -52,7 +52,7 @@ For more info on the language, visit:
 
 ### Output:
 
-* inline print from *.* operator
+* inline print from `.` operator
 
 ### Examples:
 
