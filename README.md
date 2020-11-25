@@ -46,6 +46,7 @@ Languages:
 Usage:
 
 * define *p* as your program (spaces are removed in code, and non-operators are ignored)
+* valid characters include: `> < [ ] + - . ,`
 
 Output:
 
