@@ -2,7 +2,7 @@
 p = "+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+."
 memSize = 32 #num of avaliable variable spots
 
-maxValue = 256 #standard for brainfuck
+maxValue = 256 #standard for brainfuck, most programs run on this, so beware when changing
 
 
 #code
