@@ -2,6 +2,8 @@
 
 A library of esoteric language interpreters
 
+**These are made to be the bare minimum, and is a stepping stone to write a more complete interpreter*
+
 Languages:
 1. [Fractran](#fractran)
 2. [Brainfuck](#brainfuck)
@@ -17,17 +19,17 @@ For more info on the language, visit:
 * [Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
 * [Fractran on Esolangs](https://esolangs.org/wiki/Fractran)
 
-Languages:
+### Languages:
 
 * Python 3.8.x
 
-Usage:
+### Usage:
 
 1. choose N, your input
 2. define p, the program (format: "2/3,11/3")
 3. choose whether you want to step through the program or not
 
-Output:
+### Output:
 
 The program will display prime factors and their exponents, such that A^B will turn out vA: B
 
