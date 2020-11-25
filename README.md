@@ -17,6 +17,10 @@ For more info on the language, visit:
 * [Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
 * [Fractran on Esolangs](https://esolangs.org/wiki/Fractran)
 
+Languages:
+
+* Python 3.8.x
+
 Usage:
 
 1. choose N, your input
@@ -34,6 +38,10 @@ The program will display prime factors and their exponents, such that A^B will t
 For more info on the language, visit: 
 * [Brainfuck on Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)
 * [Brainfuck on Esolangs](https://esolangs.org/wiki/Brainfuck)
+
+Languages:
+
+* Python 3.8.x
 
 Usage:
 
