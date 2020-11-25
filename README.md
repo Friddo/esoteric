@@ -47,7 +47,9 @@ For more info on the language, visit:
 
 ### Usage:
 
-* define *p* as your program (spaces are removed in code, and non-operators are ignored)
+```
+python3 brainfuck.py filename.bf
+```
 * valid characters include: `> < [ ] + - . ,`
 
 ### Output:
