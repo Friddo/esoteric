@@ -48,8 +48,9 @@ For more info on the language, visit:
 ### Usage:
 
 ```
-python3 brainfuck.py filename.bf
+python3 brainfuck.py filename
 ```
+filename is a file containing any valid brainfuck code
 * valid characters include: `> < [ ] + - . ,`
 
 ### Output:
@@ -81,8 +82,9 @@ For more info on the language, visit:
 ### Usage:
 
 ```
-python3 slashes.py filename.slash
+python3 slashes.py filename
 ```
+filename is a file containing any valid slash code
 ### Output:
 
 * final state of program
