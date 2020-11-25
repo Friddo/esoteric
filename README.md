@@ -13,8 +13,8 @@ Languages:
 ## Fractran
 
 For more info on the language, visit: 
-[Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
-[Fractran on Esolangs](https://esolangs.org/wiki/Fractran)
+* [Fractran on Wikipedia](https://en.wikipedia.org/wiki/FRACTRAN)
+* [Fractran on Esolangs](https://esolangs.org/wiki/Fractran)
 
 Usage:
 
