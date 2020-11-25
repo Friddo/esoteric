@@ -7,7 +7,7 @@ A library of esoteric language interpreters
 Languages:
 1. [Fractran](#fractran)
 2. [Brainfuck](#brainfuck)
-3. [Slashes(///)](#slashes)
+3. [Slashes (///) ](#slashes)
 
 
 
