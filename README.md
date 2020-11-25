@@ -56,7 +56,7 @@ For more info on the language, visit:
 
 ### Examples:
 
-Hello World:
+* Hello World:
 ```
 program:
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
@@ -87,7 +87,7 @@ python3 slashes.py filename.slash
 
 ### Examples:
 
-Hello World:
+* Hello World:
 ```
 program:
 /foo/Hello, world!//bar/foo/bar
