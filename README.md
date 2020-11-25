@@ -25,3 +25,23 @@ Usage:
 Output:
 
 The program will display prime factors and their exponents, such that A^B will turn out vA: B
+
+
+<a name="brainfuck"></a>
+## Brainfuck
+
+For more info on the language, visit: 
+* [Brainfuck on Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)
+* [Brainfuck on Esolangs](https://esolangs.org/wiki/Brainfuck)
+
+Usage:
+
+* define *p* as your program (spaces are removed in code, and non-operators are ignored)
+
+Output:
+
+* inline print from *.* operator
+
+Examples:
+
+
