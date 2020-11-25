@@ -54,15 +54,29 @@ For more info on the language, visit:
 
 ### Examples:
 
+Hello World:
 ```
-# Hello World
-
-input:
+program:
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 
 output:
 Hello World!
 ```
+
+Cat program:
+```
+program:
+,[.,]
+
+input:
+c
+a
+t
+
+output:
+cat
+```
+
 
 
 
