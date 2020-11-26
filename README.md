@@ -8,8 +8,7 @@ Languages:
 1. [Fractran](#fractran)
 2. [Brainfuck](#brainfuck)
 3. [Slashes (///) ](#slashes)
-
-
+4. [Deadfish](#deadfish)
 
 
 <a name="fractran"></a>
@@ -100,6 +99,49 @@ output:
 Hello, World!
 ```
 
+<a name="deadfish"></a>
+## Deadfish
+
+For more info on the language, visit: 
+* [Deadfish on Esolangs](https://esolangs.org/wiki/Deadfish)
+
+### Languages:
+
+* Python 3.8.x
+
+### Usage:
+
+```
+python3 deadfish.py filename
+```
+filename is a file containing any valid slash code
+* valid characters include: `i d s o`
+### Output:
+
+* outputs accumulator value when reaching `o` , prints newline after
+
+### Examples:
+
+* Hello World: (will output unicode values, since no text can be outputted)
+```
+program:
+iisiiiisiiiiiiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiiooiiio
+dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddo
+dddddddddddddddddddddsddoddddddddoiiioddddddoddddddddo
+
+output:
+72
+101
+108
+108
+111
+32
+119
+111
+114
+108
+100
+```
 
 
 
