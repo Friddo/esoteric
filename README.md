@@ -2,7 +2,7 @@
 
 A library of esoteric language interpreters
 
-**These are made to be the bare minimum, and is a stepping stone to write a more complete interpreter*
+**These are made to be the bare minimum, and is a stepping stone to write a more complete interpreter**
 
 Languages:
 1. [Fractran](#fractran)
