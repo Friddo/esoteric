@@ -10,6 +10,9 @@ Languages:
 3. [Slashes (///) ](#slashes)
 4. [Deadfish](#deadfish)
 
+To Do:
+* Subleq
+* Piet
 
 <a name="fractran"></a>
 ## Fractran
