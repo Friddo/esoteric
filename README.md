@@ -9,9 +9,9 @@ Languages:
 2. [Brainfuck](#brainfuck)
 3. [Slashes (///) ](#slashes)
 4. [Deadfish](#deadfish)
+5. [Subleq](#subleq)
 
 To Do:
-* Subleq
 * Piet
 
 <a name="fractran"></a>
