@@ -117,7 +117,7 @@ For more info on the language, visit:
 ```
 python3 deadfish.py filename
 ```
-filename is a file containing any valid slash code
+filename is a file containing any valid deadfish code
 * valid characters include: `i d s o`
 ### Output:
 
@@ -146,6 +146,58 @@ output:
 100
 ```
 
+
+<a name="subleq"></a>
+## Subleq
+
+For more info on the language, visit: 
+* [Subleq on Esolangs](https://esolangs.org/wiki/Subleq)
+
+### Languages:
+
+* Python 3.8.x
+
+### Usage:
+
+```
+python3 subleq.py filename.subleq
+```
+filename is a file containing any valid subleq code
+
+### Output:
+
+Prints inline when reaching instruction where `B = -1`
+
+### Examples:
+
+* Hello World:
+```
+program:
+15 17 -1
+17 -1 -1
+16 1 -1
+16 3 -1
+15 15 0
+0 -1 72
+101
+108
+108
+111
+44
+32
+119
+111
+114
+108
+100
+33
+10
+10
+0
+
+output:
+Hello, World!
+```
 
 
 
