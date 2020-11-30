@@ -10,7 +10,7 @@ Languages:
 3. [Slashes (///) ](#slashes)
 4. [Deadfish](#deadfish)
 5. [Subleq](#subleq)
-- parser
+	* parser
 
 To Do:
 * Piet
