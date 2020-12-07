@@ -55,7 +55,7 @@ python3 brainfuck.py filename
 ```
 filename is a file containing any valid brainfuck code
 * valid characters include: `> < [ ] + - . ,`
-
+* all others characters will be ignored
 ### Output:
 
 * inline print from `.` operator
